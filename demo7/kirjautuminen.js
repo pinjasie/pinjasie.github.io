@@ -5,4 +5,7 @@ function onkoKirjautunut() {
 if(kirjautunut === 'true') {
     document.getElementById('tervetulo-teksti').textContent += ' Pinja!';
 }
+function kirjaudu() {
+    localStorage.setItem("nimi", document.getElementById("nimi").value);
+}
 }

@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="UTF-8F" />
-    <title>demo6</title>
+    <title>demo7</title>
     <script type="text/javascript" language="javascript" src="kirjautuminen.js"></script> <!-- JS-tiedosto liitetty html headiin-->
 </head>
 
 <body>
     <p id="tervetulo-teksti">Tervetuloa</p>
+    <form id="kirjautumislomake">
+        <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
+        <input id="kirjaudu-nappi" type="submit" value="Kirjaudu sisään" onclick="kirjaudu()" />
+    </form>
 </body>
 </html>
